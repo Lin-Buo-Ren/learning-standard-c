@@ -1,0 +1,25 @@
+# EditorConfig is awesome
+# http://EditorConfig.org
+# This file is based on The Common EditorConfig Template project
+# https://github.com/Lin-Buo-Ren/the-common-editorconfig-template
+# Public Domain
+
+# This is the top-most EditorConfig file
+root = true
+
+# Reasonable defaults
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{md,mkd,mkdn,markdown}]
+# Trailing whitespace means manual linebreaks
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space
