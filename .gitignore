@@ -1,0 +1,7 @@
+# Git Tracking Ignore Rules
+# DOC: gitignore(5)
+
+## Ignore all extension-less files(Unix executables)
+*
+!/**/
+!*.*
